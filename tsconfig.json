@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "strictPropertyInitialization": false,
+    "importsNotUsedAsValues": "remove",
+    "isolatedModules": true,
+    "jsx": "preserve",
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "next.config.js",
+    "src/assets/__mocks__/mockAssets.js"
+  ],
+  "exclude": ["node_modules", "stories"]
+}
